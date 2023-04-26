@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+  .nav-distance{
+    padding: 2.1% 7.7%;
+  }
+  
+  .navbar-light .navbar-brand {
+    font-family: GangwonEduPowerExtraBoldA;
+    line-height: 1.68;
+    color: #35465d;
+  }
+  
+  
+  .navbar-light .navbar-toggler {
+    border-color: #ffffff;
+  }
+  
+  .nav-link {
+    font-family: GangwonEduPowerExtraBoldA;
+    line-height: 1.68;
+    color: #35465d;
+  }
+  
+  .dropdown-item {
+    font-family: GangwonEduPowerExtraBoldA;
+    line-height: 1.68;
+    color: #35465d;
+  }
+
+  .section {
+    margin-top: 100px;
+  }
+  
+  .title {
+    font-family: GangwonEduPowerExtraBoldA;
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
+  }
+  
+  .subtitle {
+    font-family:GangwonEduPowerExtraBoldA;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+  }
+  
+  .content {
+    font-family:GangwonEduPowerExtraBoldA;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+  }
+  
+  @media screen and (max-width: 600px) {
+    html {
+      font-size: 10px;
+    }
+      .navbar-brand {
+        font-size: 2rem;
+      }
+  }
+
+  .table {
+    font-family:GangwonEduPowerExtraBoldA;
+    line-height: 1.53;
+    text-align: center;
+    vertical-align: middle;
+    color: #35465d;
+  }
+
+  .youtube-link {
+    font-family: GangwonEduPowerExtraBoldA;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+  } 
+  
+.weather{
+  color: #35465d;
+}
+
+.CurrIcon, .CurrTemp{
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.CurrIcon{
+  margin-right: 2px;
+}
+.City{
+  font-size: 1.2rem;
+  text-align: center;
+}
